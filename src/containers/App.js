@@ -32,7 +32,7 @@ function App() {
             <h1 className='tc f1'>Loading ...</h1>:
             (
                 <div className='tc'>
-                    <h1 className='f1'>RoboYourself</h1>
+                    <h1 className='tc pa3 ma3'>RoboYourself</h1>
                     <SearchBox searchChange={onSearchChange} />
                     <h3 className='tc white f2'>{ searchfield }</h3>
                     <button className="
