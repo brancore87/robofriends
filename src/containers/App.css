@@ -10,9 +10,47 @@
 h1 {
     font-family: 'SEGA LOGO FONT';
     font-weight: 200;
-    text-shadow: 3px 5px 30px black;
-    color: rgb(0, 225, 255);
+    text-shadow: 10px 1px 30px purple;
+    color: rgb(255, 0, 221);
+    /* animation: pulse 10s linear infinite; */
 }    
+
+h1:hover {
+    font-family: 'SEGA LOGO FONT';
+    text-shadow: 5px 10px 50px rgb(128, 0, 255);
+    color: rgb(255, 0, 251);
+}   
+
+
+h2 {
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* animation: pulse 10s linear infinite; */
+}  
+
+/* 
+@keyframes pulse {
+    0% {
+      border-color: #0026ff;
+      text-shadow: 5px 1px 2px rgb(68, 0, 255);
+    }
+    25% {
+        border-color: #00d0ff;
+        text-shadow: 5px 1px 2px rgb(0, 166, 255);
+
+    }
+    50% {
+        border-color: #bf00ff;
+        color: rgb(0, 0, 0);
+        text-shadow: 5px 1px 2px rgb(255, 255, 255);
+    }
+    75%{
+        border-color: #ffffff;
+        color: black;
+        text-shadow: 5px 1px 2px rgb(255, 255, 255);  
+    }
+} */
+
 
 /* @media only screen and (max-width: 600px) {
     #search-engine{
